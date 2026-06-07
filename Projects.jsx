@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { projects } from '../data/index.js';
+import { projects } from './index.js';
 
 const categories = ['Todos', ...new Set(projects.map(p => p.category))];
 
