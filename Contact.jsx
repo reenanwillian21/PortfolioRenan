@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { profile } from '../data/index.js';
+import { profile } from './index.js';
 
 const contactLinks = [
   {
