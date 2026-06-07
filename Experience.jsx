@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { experiences } from '../data/index.js';
+import { experiences } from './index.js';
 
 export default function Experience() {
   return (
