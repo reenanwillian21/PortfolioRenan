@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { skills } from '../data/index.js';
+import { skills } from './index.js';
 
 const skillLevels = {
   'Lean Six Sigma Black Belt': 95,
