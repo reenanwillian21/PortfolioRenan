@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { profile, education, certifications } from '../data/index.js';
+import { profile, education, certifications } from './index.js';
 
 function Section({ children, delay = 0 }) {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.1 });
