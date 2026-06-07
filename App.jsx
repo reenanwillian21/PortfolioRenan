@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { AnimatePresence, motion } from 'framer-motion';
-import Background3D from './components/Background3D.jsx';
-import Nav from './components/Nav.jsx';
-import Home from './pages/Home.jsx';
-import About from './pages/About.jsx';
-import Experience from './pages/Experience.jsx';
-import Projects from './pages/Projects.jsx';
-import Skills from './pages/Skills.jsx';
-import Contact from './pages/Contact.jsx';
+import Background3D from './Background3D.jsx';
+import Nav from './Nav.jsx';
+import Home from './Home.jsx';
+import About from './About.jsx';
+import Experience from './Experience.jsx';
+import Projects from './Projects.jsx';
+import Skills from './Skills.jsx';
+import Contact from './Contact.jsx';
 
 const pageMap = {
   'Início': Home,
