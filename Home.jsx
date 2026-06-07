@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { profile, results } from '../data/index.js';
+import { profile, results } from './index.js';
 
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 30 },
